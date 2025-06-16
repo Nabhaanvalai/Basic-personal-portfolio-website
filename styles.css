@@ -1,0 +1,259 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: linear-gradient(to right, #FFFFFF, #252528);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+.hero p {
+  font-size: 25px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.buttons .button-1,
+.buttons .button-2 {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-1 {
+  background-color: #0F0F10;
+}
+
+.button-2 {
+  background-color: #FFFFFF;
+}
+
+.button-1 a{
+  text-decoration: none;
+  color: WHite;
+}
+
+.button-2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button-1:hover {
+  background-color: #3D3D43;
+}
+
+.button-2:hover {
+  background-color: azure;
+}
+
+/* Projects */
+#Projects {
+  background-color: black;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+.project-sec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.pro-1 {
+  background-color: #1D1C1C;
+  border: 2px solid #28272B;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.pro-1 img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.pro-1 h3 {
+  margin-top: 10px;
+}
+
+.pro-1 ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pro-1 ul li {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* Skills */
+.skills {
+  background-color: #3D3D43;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+.skills .containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.skills .container {
+  text-align: center;
+  width: 100%;
+  max-width: 250px;
+}
+
+.skills i {
+  font-size: 30px;
+}
+
+.skills pre {
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+/* Contact */
+#contact {
+  background-color: #0F0F10;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+#contact .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+#contact .content-1,
+#contact .content-2 {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+#contact .content-2 {
+  background-color: #3D3D43;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#contact form input,
+#contact form button {
+  width: 95%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#contact form input {
+  background-color: #0F0F10;
+  color: #FFFFFF;
+  border: 2px solid #28272B;
+}
+
+#contact form button {
+  background-color: #FFFFFF;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px; 
+  background-color: #3D3D43;
+  color: #FFFFFF;
+}
+
+footer p {
+  margin: 0; /* Remove default margin */
+}
+
+footer .icon i {
+  margin-left: 10px; 
+}
+
+footer .icon{
+display: flex;
+}
+
+
+/* Media Queries for Mobile */
+@media only screen and (max-width: 768px) {
+  .hero {
+      height: auto;
+      padding: 20px;
+  }
+
+  .hero p {
+      font-size: 18px;
+      padding-top: 20px;
+  }
+
+  .buttons {
+      align-items: center;
+      gap: 10px;
+  }
+
+  .project-sec {
+      padding: 20px 0;
+  }
+
+  .skills .containers {
+      padding-top: 20px;
+  }
+
+  #contact .content {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  footer {
+      padding: 20px;
+      flex-direction: column;
+      align-items: center;
+  }
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="hero">
+        <p><strong>Valai Mohammed Nabhaan</strong>
+            <br>
+            I'm a full-stack developer with a passion for <br>
+            creating beautiful and functional web applications.
+        </p>
+        <div class="buttons">
+            <button class="button-1">
+                <a class="a1" href="#Projects">View Projects</a>
+            </button>
+            <button class="button-2">
+                <a class="a2" href="#contact">Contact Me</a>
+            </button>
+        </div>   
+    </div>
+
+    <!-- Projects Section -->
+    <div id="Projects">
+        <h2>My Projects</h2>
+        <div class="project-sec">
+            <div class="pro-1">
+                <h3>Project-1</h3>
+                <img src="/img/img-1.png" alt="Project 1 Image">
+                <p>Personal portfolio</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+
+            <div class="pro-1">
+                <h3>Project-2</h3>
+                <img src="/img/img-2.png" alt="Project 2 Image">
+                <p>Description</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+
+            <div class="pro-1">
+                <h3>Project-3</h3>
+                <img src="/img/img-1.png" alt="Project 3 Image">
+                <p>Description</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Skills Section -->
+    <div class="skills">
+        <h2>My Skills</h2>
+        <div class="containers">
+            <div class="container">
+                <i class="fa-solid fa-code" style="font-size: 30px;"></i>
+                <p><strong>Front End</strong></p>
+                <pre>HTML, CSS, JavaScript, React, Vue, Angular</pre>
+            </div>
+
+            <div class="container">
+                <i class="fa-solid fa-code" style="font-size: 30px;"></i>
+                <p><strong>Back End</strong></p>
+                <pre>Node.js, Express, Django, Ruby on Rails</pre>
+            </div>
+
+            <div class="container">
+                <i class="fa-solid fa-database" style="font-size: 30px;"></i>
+                <p><strong>Databases</strong></p>
+                <pre>MySQL, PostgreSQL, MongoDB, Firebase</pre>
+            </div>
+
+            <div class="container">
+                <i class="fa-solid fa-code" style="font-size: 30px;"></i>
+                <p><strong>Tools</strong></p>
+                <pre>HTML, CSS, JavaScript, React, Vue, Angular</pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <h2>Contact Me</h2>
+        <div class="content">
+            <div class="content-1">
+                <p>Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+                <p><i class="fa-solid fa-envelope"></i> mohammednabhaanvalai@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9955664422</p>
+            </div>
+            <div class="content-2">
+                <form>
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input class="msg" type="text" placeholder="Message" required>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Mohammed Nabhaan. All rights reserved.</p>
+        <div class="icon">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
